@@ -40,6 +40,7 @@ function EditarCD(idParametro)
 		$("#informe").html(retorno.responseText);	
 	});	
 	Mostrar("MostrarFormAlta");
+setTimeout(function() {Mostrar("MostrarFormAlta")}, 10);
 }
 
 function GuardarCD()
